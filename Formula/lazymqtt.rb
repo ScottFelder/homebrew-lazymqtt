@@ -1,24 +1,24 @@
 class Lazymqtt < Formula
   desc "Fast terminal UI MQTT client, inspired by MQTT Explorer"
   homepage "https://github.com/ScottFelder/lazymqtt"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.0/lazymqtt-aarch64-apple-darwin.tar.gz"
-      sha256 "a40fa3bd46a1406c644afeb90b2adfa5e6e9bb2e2219d74d296087e2398dad64"
+      url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.1/lazymqtt-aarch64-apple-darwin.tar.gz"
+      sha256 "12a7d4942a33e66f6dfded883ceba0f1f6a55a6094533bfa42fc848298c3a6d8"
     end
     on_intel do
-      url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.0/lazymqtt-x86_64-apple-darwin.tar.gz"
-      sha256 "9b0bf559f8a3110511b2a9215a9104d64659b7d263e4e09110f44d65109115b8"
+      url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.1/lazymqtt-x86_64-apple-darwin.tar.gz"
+      sha256 "64f33110ac1fdf196279938601f2a47848a56b0451d740e8134bac7410227fe5"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.0/lazymqtt-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ccd19b5916d82426b49b9b7f8f8439454c5d5531d6013ecb12b11c08e8e7f5cd"
+      url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.1/lazymqtt-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "25ec33a83f66a391c54d3521055aefe7e214d8d7de25c16312723d4bc79a9e0b"
     end
   end
 

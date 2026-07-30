@@ -7,18 +7,18 @@ class Lazymqtt < Formula
   on_macos do
     on_arm do
       url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.1/lazymqtt-aarch64-apple-darwin.tar.gz"
-      sha256 "12a7d4942a33e66f6dfded883ceba0f1f6a55a6094533bfa42fc848298c3a6d8"
+      sha256 "b0381af5adfd488452824b6832ae28ba252be66de020e8003f7ee20830c58a33"
     end
     on_intel do
       url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.1/lazymqtt-x86_64-apple-darwin.tar.gz"
-      sha256 "64f33110ac1fdf196279938601f2a47848a56b0451d740e8134bac7410227fe5"
+      sha256 "dcb611b2b1a3f347bae28fa9a48425cdeac66eba5e8905ef44e322b365aaf465"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/ScottFelder/lazymqtt/releases/download/v0.1.1/lazymqtt-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "25ec33a83f66a391c54d3521055aefe7e214d8d7de25c16312723d4bc79a9e0b"
+      sha256 "d3af24bde9162242e63400cc040b538ca61002d9ef838331f28dd7066ef3f18a"
     end
   end
 
